@@ -53,15 +53,18 @@ python setup.py develop
 
 ## Data Setup
 
+```
 git clone https://gitlab.com/vedanuj/vqa-maskrcnn-benchmark.git
 cd vqa-maskrcnn-benchmark/
 python setup.py build develop
 mv maskrcnn_benchmark/ vilbert-multi-task/
+```
 
-
+```
 cd vilbert-multi-task/data/
 wget https://dl.fbaipublicfiles.com/vilbert-multi-task/detectron_model.pth
 wget https://dl.fbaipublicfiles.com/vilbert-multi-task/detectron_config.yaml
+```
 
 ## Visiolinguistic Multi Task Training
 
