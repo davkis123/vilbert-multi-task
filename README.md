@@ -37,6 +37,7 @@ git clone --recursive https://github.com/facebookresearch/vilbert-multi-task.git
 cd vilbert-multi-task
 pip install -r requirements.txt
 ```
+Replace tools/refer/refer.py with the refer.py file in the root directory.
 
 2. Install pytorch
 ```
