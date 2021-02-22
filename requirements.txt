@@ -1,7 +1,7 @@
 pytorch-transformers==1.0.0
-numpy==1.16.4
+numpy==1.19.2
 lmdb==0.94
-tensorboardX==1.2
+tensorboardX==1.8
 tensorflow==2.4.0
 tensorpack==0.9.4
 tqdm==4.31.1
@@ -15,3 +15,6 @@ python-prctl
 msgpack
 msgpack-numpy
 opencv-python==4.2.0.34
+scikit-image
+yacs
+flask
