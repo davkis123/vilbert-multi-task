@@ -92,7 +92,7 @@ python worker.py
 ```
 python app.py
 ```
-while it is running make the post requests:
+while it is running make the post requests (here image_path = 'demo/1.jpg'):
 ```
 
 !curl --form "fileupload=@<image_path>" --form text_input=<caption> http://127.0.0.1:5000/
