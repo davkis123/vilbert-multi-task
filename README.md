@@ -65,10 +65,11 @@ wget https://dl.fbaipublicfiles.com/vilbert-multi-task/detectron_config.yaml
 ## Visiolinguistic Multi Task Training
 
 ### Multi-task Training
-```
+
 Download this link which is the trained model for vilbert we are going to use.
 ```
 cd vilbert-multi-task/
+```
 [Download link](https://dl.fbaipublicfiles.com/vilbert-multi-task/multi_task_model.bin)
 
 Can improve upon our performance by running the following code for fine-tuning on our visual entailment task.
@@ -79,11 +80,12 @@ python train_tasks.py --bert_model bert-base-uncased --from_pretrained <multi_ta
 ```
  
 ## Run the Feature Extractor 
-
+```
 python worker.py
+```
 
 ## Flask Rest API
-
+```
 python app.py
 ```
 while it is running make the post requests:
@@ -95,7 +97,7 @@ while it is running make the post requests:
 You can now run and obtain your scores:
 ```
 python demo.py
-  
+```
   
 ## License
 
